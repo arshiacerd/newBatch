@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style
+    >
+.box{
+    background-color: rgb(76, 76, 123);
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+@media screen  and (max-width:800px){
+
+    #item1{
+        display: block;
+        background-color: orange;
+        color: white;
+    }
+}
+@media screen  and (max-width:760px){
+
+#item2{
+    display: block;
+    background-color: rgb(19, 233, 101);
+    color: rgb(90, 78, 140);
+}
+}
+@media screen and (max-width:1920px){
+
+#item3{
+    display: block;
+    background-color: rgb(67, 87, 154);
+    color: rgb(88, 48, 85);
+    font-weight: bold;
+    font-size: 20px;
+}
+}
+@media screen and (min-width:500px) and (max-width:800px){
+
+#item4{
+    display: block;
+    background-color: rgb(18, 200, 224);
+    color: rgb(125, 60, 120);
+    font-weight: bold;
+    font-size: 20px;
+}
+}
+
+</style>
+<body>
+    <div class="box" id="item1">mobile screen k liye</div>
+    <div class="box" id="item2">tablet screen k liye</div>
+    <div class="box" id="item3">Desktop screen k liye</div>
+    <div class="box" id="item4">Widescreen k liye </div>
+    
+</body>
+</html>
